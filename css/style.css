@@ -48,8 +48,8 @@ Developer @GA in NYC
 body {
      color: #000;
      font-size: 16px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     line-height: 1.5;
+     font-family: 'Source Sans Pro', sans-serif;
      margin:0%;
 }
 
@@ -67,7 +67,7 @@ nav {
 }
 
 h1 {
-    color: yellow;
+    color: #FFFB4C;
     font-size: 2.5em;
     padding-top: 2%;
     font-weight: bold; 
@@ -77,15 +77,77 @@ h2 {
   display: none;
 }
 
-img {
-  width: 100%;
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+p {
+  padding-bottom: 5%;
+}
+
+.p_browser {
+  display: none;
+}
+
+.hero {
+  background: url(../images/coworking.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 3%;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
 
 .overlay {
-  float: right;
   border: 1px solid black;
+  width: 65%;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 5%;
+  float: right;
 }
 
+.overlay p {
+  padding-bottom: 10%;
+}
+
+.button {
+  background-color: #C6C6C6;
+  text-align: center;
+  text-transform: uppercase;
+  width: 99%;
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+  font-size: .8em;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.button h3 {
+  font-family: 'Oswald', sans-serif;
+  padding: 1%;
+}
+
+.top {
+  background-color: #FFF64B;
+}
+
+div {
+  padding: 3%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
 
 /******************************************
 /* tablet
@@ -104,6 +166,14 @@ img {
 @media only screen and (min-width: 1024px) {
 
   nav {
+    display: block;
+  }
+
+  .p_mobile {
+    display: none;
+  }
+
+  .p_browser {
     display: block;
   }
 
