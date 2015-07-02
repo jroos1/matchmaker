@@ -67,18 +67,20 @@ nav {
 }
 
 .hamburger {
-  float: left;
-  width: 15%;
-  padding-top: 6%;
-  padding-left: 4%;
+  float: right;
+  width: 20%;
+  /*padding-top: 6%;*/
+  /*padding-left: 4%;*/
 }
 
 h1 {
     color: #FFFB4C;
-    font-size: 2.5em;
-    padding-top: 2%;
+    font-size: 1.5em;
+    padding-bottom: 0;
+    /*padding-top: 2%;*/
     font-weight: bold;
     float: left;
+    width: 80%;
 }
 
 h2 {
@@ -163,29 +165,36 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
   nav {
     display: block;
+    float: right;
+    /*width: 80%;*/
   }
 
   .hamburger {
     display: none;
   }
 
-  nav ul {
-    width: 80%;
-    float: right;
-  }
-
   nav li {
     display: inline-block;
     padding-bottom: 3%;
     padding-top: 1%;
-    width: 16%;
+    /*width: 20%;*/
+    float: left;
   }
 
   nav a {
     color: white;
     text-decoration: none;
+    padding-right: 1%;
   }
 
   h2 {
@@ -221,7 +230,7 @@ footer {
   .benefit {
     float: left;
     width: 33.333%;
-    border-right: 1px solid #999999;
+    border-right: 1px solid #C6C6C6;
   }
 
   .benefit:last-of-type {
